@@ -1,0 +1,27 @@
+﻿@page
+@model AuthProto.Web.Razor.Pages.Projects.CreateModel
+@{
+}
+
+<h3>Добавление проекта</h3>
+
+<form id="Project" method="post" enctype="multipart/form-data">
+    <div class='container'>
+        <div class="row">
+            <div class="col-md-4">
+                <section>
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Name" class="form-control" autocomplete="on" aria-required="true" placeholder="" />
+                        <label asp-for="Input.Name" class="form-label">Название проекта</label>
+                        <span asp-validation-for="Input.Name" class="text-danger"></span>
+                    </div>
+                </section>
+                <div>
+                    <button id="new-project-submit" type="submit" class="w-100 btn btn-lg btn-primary">Сохранить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

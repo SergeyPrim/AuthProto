@@ -1,0 +1,33 @@
+﻿@page
+@model AuthProto.Web.Razor.Pages.Projects.IndexModel
+@{
+}
+<h2>Проекты</h2>
+
+<div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+<p>
+    <a asp-page="./Create">Создать</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Название
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Projects)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
