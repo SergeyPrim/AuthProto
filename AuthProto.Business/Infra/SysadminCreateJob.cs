@@ -3,11 +3,6 @@ using AuthProto.Model.Permissions;
 using AuthProto.Model.Users;
 using AuthProto.Shared.Utilities;
 using Quartz;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AuthProto.Business.Infra
 {

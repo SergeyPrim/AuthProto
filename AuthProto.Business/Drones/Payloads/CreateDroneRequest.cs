@@ -3,8 +3,6 @@ using AuthProto.Model.Drones;
 using AuthProto.Shared.Constants;
 using AuthProto.Shared.Mapping;
 using AuthProto.Shared.Payloads;
-using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson;
 
 namespace AuthProto.Business.Drones.Payloads
 {

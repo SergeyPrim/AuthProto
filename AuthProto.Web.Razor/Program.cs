@@ -19,7 +19,7 @@ namespace AuthProto.Web.Razor
 
             builder.Host
                 .UseSerilog((ctx, lc) => lc.ReadFrom.Configuration(ctx.Configuration)); ;
-            
+
             builder.Services.AddAutowiringDependencies(builder.Configuration, "AuthProto.*.dll");
             builder.Services.AddBusiness(builder.Configuration);
 

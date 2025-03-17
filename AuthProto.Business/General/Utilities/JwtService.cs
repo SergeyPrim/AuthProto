@@ -1,12 +1,7 @@
 ﻿using AuthProto.Business.Settings;
 using AuthProto.Shared.DI;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AuthProto.Business.General.Utilities
 {

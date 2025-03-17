@@ -29,7 +29,7 @@ namespace AuthProto.Business.General.Repository
         readonly DatabaseContext _dbContext;
 
         public GenericRepository(IDatabaseContext dbContext)
-        { 
+        {
             _dbContext = dbContext.Context;
         }
 

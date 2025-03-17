@@ -3,7 +3,6 @@ using AuthProto.Business.Permissions;
 using AuthProto.Business.Users.Payloads;
 using AuthProto.Model.Db;
 using AuthProto.Model.Permissions;
-using AuthProto.Model.Projects;
 using AuthProto.Model.Users;
 using AuthProto.Shared.DI;
 using AuthProto.Shared.Payloads;

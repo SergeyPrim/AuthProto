@@ -1,14 +1,8 @@
 ﻿using AuthProto.Business.General.Repository;
 using AuthProto.Business.Projects.Payloads;
-using AuthProto.Model.Db;
 using AuthProto.Model.Projects;
 using AuthProto.Shared.DI;
 using AuthProto.Shared.Payloads;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AuthProto.Business.Projects
 {

@@ -7,7 +7,7 @@
         ChangeUserPermissions = 3,
         DeleteUser = 4,
         ListUsers = 5,
-        
+
         ListDrones = 10,
         CreateDrone = 11,
         RunDrone,

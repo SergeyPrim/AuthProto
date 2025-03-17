@@ -1,10 +1,8 @@
 ﻿using AuthProto.Business.Drones.Payloads;
 using AuthProto.Business.Infra;
 using AuthProto.Business.Permissions;
-using AuthProto.Business.Users;
 using AuthProto.Model.Drones;
 using AuthProto.Model.Permissions;
-using AuthProto.Model.Projects;
 using AuthProto.Shared.DI;
 using AuthProto.Shared.Payloads;
 using Microsoft.AspNetCore.SignalR;

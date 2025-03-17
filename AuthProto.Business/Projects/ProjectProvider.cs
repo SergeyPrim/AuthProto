@@ -20,7 +20,7 @@ namespace AuthProto.Business.Projects
         readonly IPermissionProvider _permissionProvider;
 
         public ProjectProvider(
-            IProjectCommandHandler ch, 
+            IProjectCommandHandler ch,
             IProjectQueryHandler qh,
             IPermissionProvider permissionProvider)
         {

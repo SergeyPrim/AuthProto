@@ -1,8 +1,5 @@
 ﻿using AuthProto.Business.General.Repository;
-using AuthProto.Business.Users.Payloads;
-using AuthProto.Model.Users;
 using AuthProto.Shared.DI;
-using AuthProto.Shared.Payloads;
 
 namespace AuthProto.Business.Users
 {
